@@ -1,0 +1,54 @@
+/*
+ * Widget Genre Anime [21/02/18]
+ * @yuukithemes.com
+ *
+ */
+
+.yuukithemes-genre li{float:left;width:calc(50% - 6px);text-align:center;position:relative;margin:3px}
+.yuukithemes-genre ul{list-style:none;margin:0 -5px;padding:0}
+.yuukithemes-genre ul:after{content:"";display:block;clear:both}
+.yuukithemes-genre li a{display:block;color:#fff;z-index:10;position:relative;padding:9px;font-weight:700}
+.yuukithemes-genre li a:before{content:"";position:absolute;background:#353638 center no-repeat;background-size:100%;top:0;left:0;width:100%;height:100%;border-radius:4px;filter:grayscale(1) opacity(.6);z-index:10}
+.yuukithemes-genre li a:after{content:"";position:absolute;background:#000;width:100%;height:100%;top:0;left:0;z-index:5;border-radius:4px}
+.yuukithemes-genre li a:hover:before{filter:grayscale(0) opacity(.7)}
+.yuukithemes-genre li a span{display:block;position:relative;z-index:12;}
+.yuukithemes-genre li a[title~=Action]:before{background-image:url("https://i.imgur.com/vScs9kp.png");}
+.yuukithemes-genre li a[title~=Adventure]:before{background-image:url("https://i.imgur.com/7ZdlT1A.png");}
+.yuukithemes-genre li a[title~=Comedy]:before{background-image:url("https://i.imgur.com/Rg0eKIZ.png");}
+.yuukithemes-genre li a[title~=Demons]:before{background-image:url("https://i.imgur.com/aQmak2c.png");}
+.yuukithemes-genre li a[title~=Drama]:before{background-image:url("https://i.imgur.com/BK4a9IH.png");}
+.yuukithemes-genre li a[title~=Ecchi]:before{background-image:url("https://i.imgur.com/XF8RVAb.png");}
+.yuukithemes-genre li a[title~=Fantasy]:before{background-image:url("https://i.imgur.com/zVjwJI5.png");}
+.yuukithemes-genre li a[title~=Game]:before{background-image:url("https://i.imgur.com/ciMLfkS.png");}
+.yuukithemes-genre li a[title~=Hareem]:before{background-image:url("https://i.imgur.com/ggDrqXN.png");}
+.yuukithemes-genre li a[title~=Historical]:before{background-image:url("https://i.imgur.com/x9iIuUV.png");}
+.yuukithemes-genre li a[title~=Horror]:before{background-image:url("https://i.imgur.com/dZL9hIs.png");}
+.yuukithemes-genre li a[title~=Isekai]:before{background-image:url("https://i.imgur.com/Y0OiqYM.png");}
+.yuukithemes-genre li a[title~=Kids]:before{background-image:url("https://i.imgur.com/vLBO9rW.png");}
+.yuukithemes-genre li a[title~=Magic]:before{background-image:url("https://i.imgur.com/zAwBL3z.png");}
+.yuukithemes-genre li a[title~=Martial-Arts]:before{background-image:url("https://i.imgur.com/nnTArcc.png");}
+.yuukithemes-genre li a[title~=Mecha]:before{background-image:url("https://i.imgur.com/kDrVqRh.png");}
+.yuukithemes-genre li a[title~=Military]:before{background-image:url("https://i.imgur.com/KhGYC22.png");}
+.yuukithemes-genre li a[title~=Music]:before{background-image:url("https://i.imgur.com/9KleTZt.png");}
+.yuukithemes-genre li a[title~=Mystery]:before{background-image:url("https://i.imgur.com/zMovyyJ.png");}
+.yuukithemes-genre li a[title~=Parody]:before{background-image:url("https://i.imgur.com/issKWjl.png");}
+.yuukithemes-genre li a[title~=Police]:before{background-image:url("https://i.imgur.com/dlvI7As.png");}
+.yuukithemes-genre li a[title~=Psychological]:before{background-image:url("https://i.imgur.com/2JebLLA.png");}
+.yuukithemes-genre li a[title~=Romance]:before{background-image:url("https://i.imgur.com/vQq2SAz.png");}
+.yuukithemes-genre li a[title~=School]:before{background-image:url("https://i.imgur.com/XxbcxSi.png");}
+.yuukithemes-genre li a[title~=Sci-Fi]:before{background-image:url("https://i.imgur.com/j86OAi5.png");}
+.yuukithemes-genre li a[title~=Seinen]:before{background-image:url("https://i.imgur.com/vgr46aY.png");}
+.yuukithemes-genre li a[title~=Shounen]:before{background-image:url("https://i.imgur.com/JlcxUIf.png");}
+.yuukithemes-genre li a[title~=Shoujo]:before{background-image:url("https://i.imgur.com/Snb0vmF.png");}
+.yuukithemes-genre li a[title~=Slice-of-Life]:before{background-image:url("https://i.imgur.com/m7Eql28.png");}
+.yuukithemes-genre li a[title~=Space]:before{background-image:url("https://i.imgur.com/wRYSzoC.png");}
+.yuukithemes-genre li a[title~=Sports]:before{background-image:url("https://i.imgur.com/lJvzAKc.png");}
+.yuukithemes-genre li a[title~=Supernatural]:before{background-image:url("https://i.imgur.com/3r3ZNZU.png");}
+.yuukithemes-genre li a[title~=Super-Power]:before{background-image:url("https://i.imgur.com/fXNTu05.png");}
+.yuukithemes-genre li a[title~=Tragedy]:before{background-image:url("https://i.imgur.com/LPTfF2t.png");}
+.yuukithemes-genre li a[title~=Vampire]:before{background-image:url("https://i.imgur.com/L3tRs5u.png");}
+.yuukithemes-genre li a[title~=Adult]:before{background-image:url("https://i.imgur.com/pNsMgIv.png");}
+.yuukithemes-genre li a[title~=Yuri]:before{background-image:url("https://i.imgur.com/b9o48P0.png");}
+@media screen and (max-width:480px){
+.yuukithemes-genre li{float:none;width:100%}.yuukithemes-genre li a{padding:11px}
+}
